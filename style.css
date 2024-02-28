@@ -1868,6 +1868,9 @@ main {
   .final-image {
     display: none;
   }
+  .second-img img{
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .flex-container {
@@ -1952,6 +1955,7 @@ main {
   .section-5-video{
     display: none;
   }
+  
 }
 @media (max-width: 991px) and (min-width:  768px) {
   nav {
@@ -2215,6 +2219,10 @@ main {
     margin-left: 15px;
     margin-right: 15px;
   }
+  .second-img img{
+    width: 700px;
+    height: auto;
+  }
   .button-3 {
     font-size: 16px;
     font-weight: 600;
@@ -2325,51 +2333,53 @@ main {
     margin-top: 80px;
     border-radius: 15px;
   }
+  .box-main-class {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .box-no-1 {
-    width: 100px;
+    width: 120px;
     height: 100px;
     border-radius: 50%;
     background-color: white;
     display: flex;
-    margin-left: 0;
+    margin-left: 10px;
     align-items: center;
   }
   .box-no-2 {
-    width: 100px;
+    width: 120px;
     height: 100px;
     border-radius: 50%;
     background-color: white;
     display: flex;
-    margin-left: 0;
+    margin-left: 10px;
     align-items: center;
   }
   .box-main-class h2 {
     color: aliceblue;
-    font-size: 48px;
-    margin-left: 5px;
+    font-size: 52px;
+    margin-left: 10px;
   }
-
   .box-class-2 h1 {
     color: white;
-    margin-left: 0px;
-    margin-right: 0px;
-    max-width: 133px;
+    margin-left: 20px;
+    margin-right: 50px;
+    max-width: 533px;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 0px;
   }
-  .boxes-class {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   .box-class-3 {
-    /* margin-left: 120px; */
-    background-color: white;
-    border-radius: 22px;
+    margin-right: 40px;
   }
   .box-class-3 h3 {
-    text-align: center; 
+    text-align: center;
+    
+    background-color: white;
+    padding: 25px 0px 25px;
+    border-radius: 22px;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.75px;
@@ -2440,6 +2450,31 @@ main {
   width: 380px;
   height: 350px;
 }
+.text-class {
+  margin-top: -10px;
+  margin-left: 25px;
+  margin-left: 25px;
+  padding-top: 100px;
+}
+.text-class h1 {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  font-size: 32px;
+  font-weight: 745;
+  text-align: center;
+}
+.start{
+  border-radius: 34px;
+}
+.book{
+  border-radius: 34px;
+}
+.button-start{
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
 
 }
 
@@ -2462,6 +2497,61 @@ main {
   .second-side {
     display: none;
   }
+  .images-container{
+    display: none;
+  }
+  .last-text {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+  }
+  .long-line{
+    display: none;
+  }
+  .heading-text-3{
+    display: none;
+  }
+  .last-text {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
+  .last-text-1 {
+    display: block;
+    text-align: center;
+  }
+  .last-text-1 h3 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+  }
+  .last-logo-1 {
+    display: flex;
+    margin-left: 25px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .last-social-logo {
+    display: flex;
+    margin-left: 25px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .lines-container {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .lines-container ul {
+    display: none;
+  }
+  .line-no-1 img{
+   display: none;
+  }
+
 }
 @media (min-width: 992px) and (max-width: 1200px){
   nav {
