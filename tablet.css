@@ -1,0 +1,598 @@
+
+@media (max-width: 991px) and (min-width:  768px) {
+    nav {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .navbar .logo {
+      margin-top: 0;
+    }
+    .navbar .main-menue {
+      display: none;
+    }
+    .navbar .hamburger-button {
+      display: block;
+      margin-top: 0;
+    }
+    main {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .second-text {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+    .buttons {
+      margin-left: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      display: flex;
+    }
+    .menue .btn1 {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.75px;
+      line-height: 150%;
+      padding: 16px 24px;
+      background: #895ef7;
+      display: block;
+      width: 100%;
+      text-decoration: none;
+    }
+    .menue .btn2 {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.75px;
+      line-height: 150%;
+      padding: 16px 24px;
+      display: block;
+      width: 100%;
+    }
+    .class-text {
+      margin-top: 20px;
+    }
+    .photo {
+      background: url("https://images-ext-1.discordapp.net/external/phK7_jzWuP5E_fLeRRZfIo0-t8kZaFzHpUioMhYbWLI/https/a.storyblok.com/f/99519/1536x1302/9213994dc9/home-2023-hero-2.png/m/fit-in/1520x1294/filters%3Aformat%28webp%29?format=webp&width=504&height=427")
+        no-repeat center;
+      width: 100%;
+      height: 770px;
+      margin-top: -130px;
+    }
+  
+    .right-div {
+      display: none;
+    }
+    .left-div .para {
+      display: none;
+    }
+    .left-div h1 {
+      font-size: 32px;
+    }
+    .class-text h6 {
+      text-align: center;
+    }
+    .hidden-class {
+      margin-top: -100px;
+    }
+    .hidden-class h1 {
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .hidden-class h3 {
+      color: #b8b9c8;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+    .text5 {
+      margin-top: -50px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: center;
+      display: block;
+    }
+    .text5 h3 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .sectio-2 {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    .h1 h1 {
+      font-size: 38px;
+    }
+    .h3 h3 {
+      font-size: 30px;
+      color: #373753;
+    }
+    .section-3 {
+      display: flex;
+      margin-top: 70px;
+      gap: 50px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .box-1 h2 {
+      margin-top: 20px;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .heading-1 h6 {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .heading-1 h5 {
+      color: #1d1c39;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .buttons {
+      margin-left: 15px;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .section-4 {
+      display: flex;
+      margin-top: 70px;
+      gap: 50px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .section4-box-2 h2 {
+      margin-top: 20px;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .section4-headings-1 h6 {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .section4-headings-1 h5 {
+      color: #1d1c39;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .section4-buttons {
+      margin-top: 20px;
+    }
+    .section-5 {
+      display: flex;
+      margin-top: 70px;
+      gap: 50px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .section-5-boxes h2 {
+      margin-top: 20px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .section-5-heading h6 {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .section-5-heading h5 {
+      color: #1d1c39;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .section-5-buttons {
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
+    .main-text-heading h1 {
+      font-size: 38px;
+      max-width: 500px;
+    }
+    .main-text-heading h3 {
+      font-size: 16px;
+      letter-spacing: 0.75px;
+    }
+    .main-container {
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: 60px;
+      color: white;
+      display: block;
+    }
+  
+    .one-side h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 30px;
+      max-width: none;
+      margin-left: 15px;
+    }
+    .one-side h4 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 30px;
+      max-width: none;
+      margin-left: 15px;
+    }
+    .create-box {
+      background-color: #464562;
+      display: inline-block;
+      border-radius: 15px;
+      margin-top: 30px;
+      margin-bottom: 70px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .create-box h3 {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 160%;
+      max-width: none;
+      margin-left: 10px;
+    }
+    .create-box h4 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 160%;
+      max-width: none;
+      margin-left: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .btn-free-trial {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-size: 18px;
+      padding: 17px 24px;
+      letter-spacing: 0.75px;
+      line-height: 150%;
+    }
+    .paragraph {
+      padding-top: 60px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .paragraph-1 h3 {
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 115%;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .second-img img{
+      width: 700px;
+      height: auto;
+    }
+    .button-3 {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.75px;
+      line-height: 150%;
+      padding: 20px 32px;
+      border-radius: 38px;
+    }
+    .heading-4 {
+      margin-top: 70px;
+      margin-left: 20px;
+      margin-right: 15px;
+    }
+    .heading-4 h1 {
+      font-size: 38px;
+      font-weight: 745;
+      line-height: 115%;
+      letter-spacing: 2px;
+    }
+    .project-team {
+      display: flex;
+      align-items: center;
+      margin-top: 60px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .heading-7-container {
+      margin-right: 25px;
+      margin-left: 25px;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .container-first-child .heading-content h1 {
+      color: #1d1c39;
+      margin-bottom: 29px;
+      font-size: 26px;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+    .heading-content h3 {
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .features-buttons h2 {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .project-button {
+      background-color: #f8cae8;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.75px;
+      line-height: 120%;
+    }
+    .client-button {
+      background-color: #ffcfb7;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.75px;
+      line-height: 120%;
+    }
+    .reporting-button {
+      background-color: #d5c8fb;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.75px;
+      line-height: 120%;
+    }
+    .box-heading-logo {
+      display: block;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .box-heading-1 {
+      display: block;
+    }
+    .box-heading-1 h5 {
+      display: block;
+      margin-top: 100px;
+      margin-left: -90px;
+      font-size: 14px;
+    }
+    .button-6 {
+      display: flex;
+      gap: 20px;
+    }
+    .button-story {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.7px;
+      line-height: 150%;
+      padding: 20px 39px;
+    }
+    .button-stories {
+      border: 2px solid #1d1c39;
+      background-color: white;
+      color: #1d1c39;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.7px;
+      line-height: 150%;
+      padding: 20px 39px;
+    }
+    .box-body {
+      background-color: #1d1c39;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: 80px;
+      border-radius: 15px;
+    }
+    .box-main-class {
+      display: flex;
+      align-items: center;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .box-no-1 {
+      width: 120px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      margin-left: 10px;
+      align-items: center;
+    }
+    .box-no-2 {
+      width: 120px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      margin-left: 10px;
+      align-items: center;
+    }
+    .box-main-class h2 {
+      color: aliceblue;
+      font-size: 52px;
+      margin-left: 10px;
+    }
+    .box-class-2 h1 {
+      color: white;
+      margin-left: 20px;
+      margin-right: 50px;
+      max-width: 533px;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 0px;
+    }
+    .box-class-3 {
+      margin-right: 40px;
+    }
+    .box-class-3 h3 {
+      text-align: center;
+      
+      background-color: white;
+      padding: 25px 0px 25px;
+      border-radius: 22px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.75px;
+      line-height: 150%;
+    }
+    .choose-teamwork {
+      margin-top: 60px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .choose-teamwork h1 {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 733px;
+      font-size: 32px;
+      font-weight: 745;
+      text-align: center;
+    }
+    .choose-teamwork h3 {
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 750px;
+      font-size: 24px;
+      font-weight: 400;
+      display: flex;
+      text-align: center;
+      color: #494e6a;
+      margin-bottom: 60px;
+    }
+    .flex-container {
+      margin-top: 80px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 6px;
+  
+    }
+    .flex-box-1 {
+      width: 370px;
+      height: 350px;
+      background-color: #ff97da;
+    }
+    .flex-box-2 {
+      width: 370px;
+      height: 350px;
+      background-color: #f0acd8;
+    }
+   
+    .flex-box-container-3{
+     width: calc(50% - 20px);
+     margin: 0 auto;
+     margin-top: -3px;
+    }
+    .flex-box-3 {
+      width: 380px;
+      height: 350px;
+      background-color: #fad5ed;
+    }
+   .pics-box-1 img {
+      width: 370px;
+      height: 350px;
+  }
+  .pics-box-2 img {
+    width: 370px;
+    height: 350px;
+  }
+  .pics-box-3 img {
+    width: 380px;
+    height: 350px;
+  }
+  .text-class {
+    margin-top: -10px;
+    margin-left: 25px;
+    margin-left: 25px;
+    padding-top: 100px;
+  }
+  .text-class h1 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    font-size: 32px;
+    font-weight: 745;
+    text-align: center;
+  }
+  .start{
+    border-radius: 34px;
+  }
+  .book{
+    border-radius: 34px;
+  }
+  .button-start{
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+  
+  }
+  
+  @media (max-width: 992px) and (min-width: 768px) {
+    .hidden-class {
+      display: none;
+    }
+    .final-image {
+      display: none;
+    }
+    .box-2 {
+      display: none;
+    }
+    .section-4-video {
+      display: none;
+    }
+    .section-5-video {
+      display: none;
+    }
+    .second-side {
+      display: none;
+    }
+    .images-container{
+      display: none;
+    }
+    .last-text {
+      margin-top: 20px;
+      margin-left: 25px;
+      margin-right: 25px;
+      
+    }
+    .long-line{
+      display: none;
+    }
+    .heading-text-3{
+      display: none;
+    }
+    .last-text {
+      display: block;
+      margin-left: 0;
+      margin-right: 0;
+      padding-bottom: 40px;
+      padding-top: 30px;
+    }
+    .last-text-1 {
+      display: block;
+      text-align: center;
+    }
+    .last-text-1 h3 {
+      font-size: 14px;
+      font-weight: 400;
+      padding-bottom: 5px;
+    }
+    .last-logo-1 {
+      display: flex;
+      margin-left: 25px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .last-social-logo {
+      display: flex;
+      margin-left: 25px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .lines-container {
+      display: block;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    .lines-container ul {
+      display: none;
+    }
+    .line-no-1 img{
+     display: none;
+    }
+  
+  }
+  
