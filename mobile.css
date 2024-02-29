@@ -555,6 +555,9 @@
       flex-direction: column;
       width: 100%;
     }
+    .flex-box-container-3{
+      margin-bottom: -250px;
+    }
     .text-class h1 {
       color: white;
       margin-left: 15px;
@@ -671,6 +674,9 @@
     }
     .lines-container {
       display: block;
+    }
+    .lines-container {
+      margin-top: -80px;
     }
     .lines-container ul {
       display: none;

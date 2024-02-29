@@ -452,46 +452,32 @@
       color: #494e6a;
       margin-bottom: 60px;
     }
-    .flex-container {
-      margin-top: 80px;
-      display: flex;
-      flex-wrap: wrap;
-      margin-bottom: 6px;
-  
+    @media (max-width: 992px) and (min-width: 768px){
+      .flex-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+       
+      }
+    
+      .flex-box-container-1,
+      .flex-box-container-2,
+      .flex-box-container-3 {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .flex-box-1,
+      .flex-box-2,
+      .flex-box-3 {
+        width: 100%;
+        margin: 0; 
+      }
+    
+      .pics-box-3 {
+        display: block;
+      }
     }
-    .flex-box-1 {
-      width: 370px;
-      height: 350px;
-      background-color: #ff97da;
-    }
-    .flex-box-2 {
-      width: 370px;
-      height: 350px;
-      background-color: #f0acd8;
-    }
-   
-    .flex-box-container-3{
-     width: calc(50% - 20px);
-     margin: 0 auto;
-     margin-top: -3px;
-    }
-    .flex-box-3 {
-      width: 380px;
-      height: 350px;
-      background-color: #fad5ed;
-    }
-   .pics-box-1 img {
-      width: 370px;
-      height: 350px;
-  }
-  .pics-box-2 img {
-    width: 370px;
-    height: 350px;
-  }
-  .pics-box-3 img {
-    width: 380px;
-    height: 350px;
-  }
   .text-class {
     margin-top: -10px;
     margin-left: 25px;
@@ -514,7 +500,7 @@
     border-radius: 34px;
   }
   .button-start{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     padding-top: 40px;
   }
   
@@ -595,4 +581,41 @@
     }
   
   }
+  @media (max-width: 992px) and (min-width: 768px){
+    .flex-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+     
+    }
   
+    .flex-box-container-1,
+    .flex-box-container-2,
+    .flex-box-container-3 {
+      display: flex;
+      flex-direction: column;
+    }
+    .flex-box-container-3{
+      margin-left: 200px;
+      width: 100%;
+      margin-bottom: -249px;
+    }
+  
+    .flex-box-1,
+    .flex-box-2,
+    .flex-box-3 {
+      width: 100%;
+      margin: 0; 
+    }
+  
+    .pics-box-3 {
+      display: block;
+    }
+    .img-fluid{
+      max-width: 100%;
+      height: auto;
+    }
+    .lines-container{
+      margin-top: -90px;
+    }
+  }

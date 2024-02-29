@@ -1021,7 +1021,7 @@ main {
   justify-content: center;
   margin-top: 40px;
   gap: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
 }
 .start {
   padding: 22px 39px;
@@ -1260,17 +1260,4 @@ main {
   max-width: 100%;
   height: auto;
  }
-
- /* .pics-box-1 img {
-  width: 100%;
-  height: auto;
- }
- .pics-box-2 img {
-  width: 100%;
-  height: auto;
- }
-.pics-box-3 img {
-  width: 100%;
-  height: auto;
-} */
 }
