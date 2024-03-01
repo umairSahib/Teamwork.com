@@ -611,10 +611,10 @@
     .pics-box-3 {
       display: block;
     }
-    .img-fluid{
+    /* .img-fluid{
       max-width: 100%;
       height: auto;
-    }
+    } */
     .lines-container{
       margin-top: -90px;
     }

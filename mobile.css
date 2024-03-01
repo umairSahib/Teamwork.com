@@ -621,10 +621,10 @@
       display: block;
       flex-direction: column;
     }
-    .img-fluid{
+    /* .img-fluid{
       max-width: 100%;
       height: auto;
-    }
+    } */
     .project-team h3 {
       font-size: 12px;
       font-weight: 700;
