@@ -83,6 +83,7 @@ main {
   color: white;
   font-size: 45px;
   font-weight: bold;
+  max-width: 588px;
 }
 .second-text {
   margin-top: 40px;
@@ -1222,5 +1223,5 @@ main {
   height: auto;
  }
 
- 
+
  
