@@ -677,6 +677,8 @@
     }
     .lines-container {
       margin-top: -80px;
+      margin-left: 25px;
+     
     }
     .lines-container ul {
       display: none;
