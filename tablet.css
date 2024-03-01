@@ -452,32 +452,7 @@
       color: #494e6a;
       margin-bottom: 60px;
     }
-    @media (max-width: 992px) and (min-width: 768px){
-      .flex-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-       
-      }
-    
-      .flex-box-container-1,
-      .flex-box-container-2,
-      .flex-box-container-3 {
-        display: flex;
-        flex-direction: column;
-      }
-    
-      .flex-box-1,
-      .flex-box-2,
-      .flex-box-3 {
-        width: 100%;
-        margin: 0; 
-      }
-    
-      .pics-box-3 {
-        display: block;
-      }
-    }
+   
   .text-class {
     margin-top: -10px;
     margin-left: 25px;
@@ -572,6 +547,7 @@
       display: block;
       margin-left: 25px;
       margin-right: 25px;
+      margin-top: -80px;
     }
     .lines-container ul {
       display: none;
@@ -584,8 +560,8 @@
   @media (max-width: 992px) and (min-width: 768px){
     .flex-container{
       display: grid;
-      grid-template-columns: repeat(2, 1fr); /* Two columns for tablet */
-      grid-template-rows: auto; /* Let rows adjust automatically */
+      grid-template-columns: repeat(2, 1fr); 
+      grid-template-rows: auto; 
     }
   
     .flex-box-container-1,
@@ -594,20 +570,19 @@
       display: flex;
       flex-direction: column;
     }
-  
+    .flex-box-container-3{
+      margin-left: 200px;
+      width: 100%; 
+      margin-bottom: -249px;
+    }
     .flex-box-1,
     .flex-box-2 {
       width: 100%;
       margin: 0;
     }
   
-    .flex-box-3 {
-      width: 100%; 
-      margin: 0 auto; 
-    }
-  
     .pics-box-3 {
-      display: block; 
+      display: block;
     }
   }
   
