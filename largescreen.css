@@ -18,6 +18,13 @@
     .btn{
       margin-top: 15px;
     }
+    .second-p{
+      display: flex;
+      margin-left: 20px;
+      align-items: center;
+      margin-right: 50px;
+      gap: 30PX;
+    }
     .left-div h1 {
       color: white;
       font-size: 45px;
