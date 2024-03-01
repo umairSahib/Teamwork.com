@@ -20,10 +20,8 @@
     }
     .second-p{
       display: flex;
-      margin-left: 20px;
+      margin-left: 62px;
       align-items: center;
-      margin-right: 50px;
-      gap: 30PX;
     }
     .left-div h1 {
       color: white;

@@ -31,10 +31,16 @@ nav {
   font-size: 14px;
   align-items: center;
 }
+
 .main-menue p {
   margin-top: 19px;
-  padding: 8px;
-  margin-left: 19px;
+  padding: 3px;
+  margin-left: 10px;
+}
+.second-p{
+  display: flex;
+  align-items: center;
+ 
 }
 .logo {
   margin-top: 10px;
@@ -1211,11 +1217,6 @@ main {
 }
 
 @media (max-width: 1440px) and (min-width: 1200px){
-  nav {
-    background: #0b0e1f;
-    color: white;
-    
-  }
   .logo{
     margin-left: -5px;
   }
@@ -1223,19 +1224,20 @@ main {
     display: flex;
     font-size: 14px;
     align-items: center;
-    margin-right: 90px;
-    justify-content: space-between;
+    /* margin-right: 90px; */
   }
   .main-menue p {
     padding: 3px;
+    display: flex;
+    gap: 31px;
 
   }
   .second-p{
     display: flex;
-    margin-left: 100px;
+    margin-left: 32px;
     align-items: center;
-    margin-right: -100px;
-    gap: 30PX;
+    margin-right: -60px;
+    gap: 10px;
   }
   .btn{
     margin-top: 15px;
@@ -1276,4 +1278,5 @@ main {
   height: auto;
  }
 }
+
 
