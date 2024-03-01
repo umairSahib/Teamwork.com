@@ -1216,67 +1216,11 @@ main {
   line-height: 160%;
 }
 
-@media (max-width: 1440px) and (min-width: 1200px){
-  .logo{
-    margin-left: -5px;
-  }
-  .main-menue {
-    display: flex;
-    font-size: 14px;
-    align-items: center;
-    margin-right: 40px;
-  }
-  .main-menue p {
-    padding: 3px;
-    display: flex;
-    gap: 31px;
 
-  }
-  .second-p{
-    display: flex;
-    margin-left: 32px;
-    align-items: center;
-    margin-right: -60px;
-    gap: 10px;
-  }
-  .btn{
-    margin-top: 15px;
-  }
-  .box-class-2 h1{
-    max-width: 533px;
-  }
-  .container-second-child{
-    display: flex;
-    margin-top: 250px;
-    margin-left: 100px;
-  }
-  .container-second-child img{
-    width: 270px;
-    height: 270px;
-  }
-  .second-img img{
-    width: 100%;
-    height: auto;
-  }
-  .flex-box-1 {
-    width: 100%;
-    height: auto;
-    background-color: #ff97da;
-  }
-  .flex-box-2 {
-    width: 100%;
-    height: auto;
-    background-color: #f0acd8;
-  }
-  .flex-box-3 {
-    width: 100%;
-    height: auto;
-    background-color: #fad5ed;
-  }
-
-}
 .img-fluid  {
   max-width: 100%;
   height: auto;
  }
 
+ 
+ 
