@@ -1224,7 +1224,7 @@ main {
     display: flex;
     font-size: 14px;
     align-items: center;
-    /* margin-right: 90px; */
+    margin-right: 40px;
   }
   .main-menue p {
     padding: 3px;
