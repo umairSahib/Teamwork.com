@@ -1229,7 +1229,7 @@ main {
  }
 
 
- @media (max-width: 1900px) and (min-width: 1400px){
+ @media  (min-width: 1400px){
   .tw-container{
     margin: 0 auto;
     width: 1483px;
