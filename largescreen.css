@@ -180,10 +180,6 @@
       margin-left: 25px;
       margin-right: 25px;
    }
-   .second-img img{
-      width: 900px;
-      height: auto;
-   }
    .paragraph {
     padding-top: 100px;
     display: flex;
@@ -415,12 +411,8 @@
     .flex-container{
       display: grid;
       grid-template-columns: repeat(3,1fr);
-      grid-template-rows: 400px;
+      grid-template-rows: auto;
       margin-top: 100px;
       margin-bottom: -68px;
     }
-   /* .img-fluid {
-    width: 100%;
-    height: auto;
-  }   */
   }

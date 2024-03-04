@@ -5,6 +5,7 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+
 nav {
   background: #0b0e1f;
   color: white;
@@ -500,10 +501,6 @@ main {
     margin-left: 25px;
     margin-right: 25px;
 }
-.second-img img{
-  width: 1300px;
-  height: auto;
-}
 .center-button {
   display: flex;
   justify-content: center;
@@ -825,6 +822,14 @@ main {
 }
 .box-class-3 {
   margin-right: 80px;
+}
+.box-class-3 button{
+  border-radius: 32px;
+  cursor: pointer;
+}
+.box-class-3 button:hover {
+  background-color: #888;
+  text-decoration: underline;
 }
 .box-class-3 h3 {
   text-align: center;
@@ -1224,4 +1229,10 @@ main {
  }
 
 
- 
+ @media (max-width: 1900px) and (min-width: 1400px){
+  .tw-container{
+    margin: 0 auto;
+    width: 1483px;
+  }
+  
+ }
