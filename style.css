@@ -1234,5 +1234,13 @@ main {
     margin: 0 auto;
     width: 1483px;
   }
+  .text-class{
+    margin-top: 34px;
+  }
+  
+  .box-class-2 h1{
+    max-width: 700px;
+  }
+  
   
  }
